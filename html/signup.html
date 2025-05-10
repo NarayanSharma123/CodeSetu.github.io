@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for SEO and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Update your profile with STP Computer Education. Update your personal details and stay connected.">
+    <meta name="keywords" content="STP Computer Education, profile update, user profile, update name, address, mobile">
+    <meta name="author" content="STP Computer Education">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook) -->
+    <meta property="og:title" content="Profile Update - STP Computer Education">
+    <meta property="og:description"
+        content="Update your personal details with STP Computer Education. Make sure your profile is up to date.">
+    <meta property="og:image" content="path/to/your/preview-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/profile-update">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Profile Update - STP Computer Education">
+    <meta name="twitter:description"
+        content="Update your personal details with STP Computer Education. Keep your profile current.">
+    <meta name="twitter:image" content="path/to/your/preview-image.jpg">
+    <title>CodeSetu/signup</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- font awesome icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="code">Code</span><span class="setu">Setu</span></a>
+            <p class="r_logo">&reg;</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="course.html">All Courses</a>
+                    <a class="nav-link active" aria-current="page" href="project.html">Projects</a>
+                    <a class="nav-link active profile-link d-none" aria-current="page" href="profile.html">Profile</a>
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Signup Page -->
+    <section class="signup-section" style="padding-top: 50px;">
+        <div class="container">
+            <h1 class="text-center mt-5"><b>Sign Up</b></h1>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <form id="signupForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phone" name="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="******"
+                                name="password" required>
+                            <span id="togglePassword" style="cursor: pointer;">
+                                <i class="fa-solid fa-eye togglePassword" id="togglePassword">
+                                </i>
+                            </span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+                                required>
+                            <span id="togglePassword" style="cursor: pointer;">
+                                <i class="fa-solid fa-eye togglePassword" id="togglePassword2">
+                                </i>
+                            </span>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>Already have an account? <a href="login.html">Login here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer bg-dark text-white pt-4 pb-3">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+                <!-- Left Container -->
+                <div class="col-md-4 mb-4 mb-md-0 left-container">
+                    <div class="first">
+                        <div class="logo">
+                            <a class="navbar-brand" href="#">
+                                <span class="code">Code</span><br />
+                                <span class="setu">Setu</span>
+                            </a>
+                        </div>
+                        <div class="webname">
+                            <a href="https://youtube.com/@codesetu-e4r?si=VxDu0Ab5zQjM9WTt">
+                                Click me! AND Subscribe to more Free Courses
+                            </a>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <span>FOLLOW US:</span>
+                        <a href="https://youtube.com/@codesetu-e4r?si=VxDu0Ab5zQjM9WTt">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Center Container -->
+                <div class="col-md-4 mb-4 mb-md-0 center-container">
+                    <h3>USEFUL LINKS</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="course.html">All Course</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="profile.html" class="profile-footer-link d-none">Profile</a></li>
+                        <li><a href="contact.html">Contact me!</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Container -->
+                <div class="col-md-4 right-container">
+                    <h3>IMPORTANT LINKS</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy & Policy</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- second footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <hr />
+        <div class="container">
+            <p class="mb-0">&copy; 2025 CodeSetu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <!-- auth.js -->
+    <script src="../js/auth.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+.navbar-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link {
+    font-size: 18px;
+}
+.nav-link:hover {
+    color: #0D6EFD !important;
+}
+.code{
+    font-size: 22px;
+    font-weight: 650;
+    color: #1E90FF;
+}
+.setu{
+    font-size: 22px;
+    font-weight: 650;
+    color: #FF8C00;
+}
+.r_logo {
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    left: 115px;
+}
+.user-btns{
+    margin-left: 50px;
+}
+/* hero-section */
+.hero-section {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.hero-section h2 {
+    color: #FF8C00;
+}
+.hero-section .btn {
+    width: 180px !important;
+    height: 50px !important;
+    font-size: 20px;
+    background-color: white !important;
+    color: black !important;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* course section */
+.course-section {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.all-course {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.courses {
+    width: 340px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.courses img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.course-info {
+    padding: 10px;
+    margin: 13px;
+}
+.course-info label i {
+    color: #FFC107;
+}
+.course-info h3, .course-info label {
+    margin-bottom: 5px;
+}
+/* benefit-section */
+.benefit-section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.benefit-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.benefit-section hr {
+    width: 75%;
+    margin-bottom: 15px;
+}
+
+/* Make benefits list responsive */
+.benefit-section ol {
+    padding-left: 20px;
+}
+
+.benefit-section ol li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* FOOTER STYLING */
+.main-footer {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-container .first, .left-container .second {
+    width: 90%;
+    height: 100px;
+    border: 1px solid white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+}
+.left-container .first .logo {
+    width: 70px;
+    height: 70px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+.left-container .first .logo span {
+    font-size: 18px;
+    font-weight: normal;
+}
+.left-container .second {
+    font-size: 24px;
+}
+.left-container .second i {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.center-container h3,
+.right-container h3 {
+    text-decoration: underline;
+}
+.center-container ul,
+.right-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+.center-container ul li,
+.right-container ul li {
+    margin-bottom: 10px;
+}
+.left-container .first .webname a,
+.center-container ul li a,
+.right-container ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECTS */
+.left-container .first .webname a:hover,
+.left-container .second i:hover,
+.center-container ul li a:hover,
+.right-container ul li a:hover {
+    color: #FF8C00;
+    text-decoration: underline;
+}
+
+/* about section */
+.about-container {
+    padding: 20px;
+    margin-top: 60px;
+}
+.about-container p {
+    text-align: justify;
+}
+.about-container .logo a span {
+    font-size: 50px;
+    text-decoration: underline;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-me .myImg {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.about-me .myInfo {
+    width: 70%;
+    height: auto;
+    padding: 0px 12px 48px;
+}
+.about-me .myInfo p {
+    text-align: justify;
+}
+
+/* privacy & Policy */
+.policy-container {
+    width: 100%;
+    padding-top: 30px;
+}
+.policy-container .container h1 {
+    font-size: 39.572px;
+    font-weight: bold;
+    margin: 48px 0px;
+}
+
+/* signup */
+#togglePassword {
+    position: relative;
+}
+#togglePassword .togglePassword {
+    position: absolute;
+    top: -25px;
+    left: 520px;
+}
+
+
+
+/* profile section */
+.profile-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-section .container {
+    width: 500px;
+    height: 400px;
+}
+.profile-section .container .btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.profile-section .container .btns button {
+    margin: 10px;
+}
+#profileName {
+    color: #335EEA;
+}
+
+
+
+
+
+
+/* media query */
+@media(max-width: 768px) {
+    .user-btns{
+        margin-left: 0px;
+    }
+    .login-btn, .signup-btn, .logout-btn {
+        width: 95%;
+        margin-bottom: 5px;
+    }
+    /* benefit-section */
+    .benefit-section h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .benefit-section hr {
+        width: 90%;
+    }
+
+    .benefit-section ol li {
+        font-size: 16px;
+    }
+    .about-container .logo a span {
+        text-align: center;
+        font-size: 30px;
+    }
+}
